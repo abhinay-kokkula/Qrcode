@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: #0096fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0;
+    max-width: 500px;
+    /* height: 500px; */
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+h2{
+    color: rgb(38, 255, 0);
+}
+#inputtext{
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#image{
+    margin: 20px;
+}
+.btn{
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.error{
+    animation: shake 0.1s linear 4;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
